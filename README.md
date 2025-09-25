@@ -4,6 +4,7 @@ A sleek, minimalistic, and fully responsive To-Do List app built with **React** 
 Easily **Add**, **Edit ✏️**, **Delete 🗑️**, and **Mark ✅** your tasks — no limits, just productivity!
 
 ## 🚀 Live Preview
+(https://task-management-lovat-nine.vercel.app/)
 
 ## ✨ Features
 
