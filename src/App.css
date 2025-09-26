@@ -30,18 +30,16 @@ body {
 
 .task-input {
   flex: 1;
+  position: relative;
   padding: 12px;
+  font-size: 24px;
   border-radius: 10px;
   font-style: italic;
-  font-size: 20px;
   outline: none;
   background-color: #1b1b1b;
   color: #999;
-  box-shadow: inset 4px 4px 8px #141414, inset -4px -4px 8px #2c2c2c;
-}
-
-::placeholder {
-  color: #999;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
 }
 
 .task-btn {
@@ -51,7 +49,8 @@ body {
   font-size: 24px;
   background-color: #1b1b1b;
   color: #ffd500;
-  box-shadow: inset 4px 4px 8px #141414, inset -4px -4px 8px #2c2c2c;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
   cursor: pointer;
   transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
@@ -78,7 +77,8 @@ body {
   word-break: break-word;
   white-space: normal;
   background-color: #1b1b1b;
-  box-shadow: inset 4px 4px 8px #141414, inset -4px -4px 8px #2c2c2c;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
 }
 
 .actions {
